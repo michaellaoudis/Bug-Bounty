@@ -1,25 +1,25 @@
 # Bounty Report Template - appName
-## Scope
+### Scope
 - White-listed vulnerabilities, targets..
 ### Identified Domain(s)
 - https://example.com
     - https://example.com/profile
-## App Functionality
+### App Functionality
 - Interesting features -> Flow, APIs..           
 
 
 # **Impact**
 
-## Issue Description
+### Issue Description
 - A generic overview of the issue.
 
-## Affected URL/Area
+### Affected URL/Area
 - The affected urls or area of the application where the issue exists.
 
-## Risk Rating
+### Risk Rating
 - [CVSS v3.1 Calculator](https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator)
 
-## Impact
+### Impact
 - What kind of attacker?
 - Authentication used? Y/N
 - Who else does it affect?
@@ -31,14 +31,14 @@ Outline the steps required to execute the payload as an attacker.
 ### Sample SQLi Queries
 | Injection | HTTP Response                    |
 | ------------- | ------------------------------ |
-| `UNION SELECT ORDER BY 3--`      | 200 **OK**       |
-| `OR 7=7--`   | 200 **OK**     |
+| `' UNION SELECT 'a',NULL,NULL--`      | 200 **OK**       |
+| `' OR 7=7--`   | 200 **OK**     |
 # **Remediation**
 
-## Recommended Fix
+Recommended Fix
 - Remediation actions required to successfully fix issue
 
-## References
+### References
 Include additional reading for the client to further backup the issues explained or elaborate more on other potential issues chained to the one identified.
-- [1] [Reference 1]()
-- [2] [Reference 2]()
+- [1] [OWASP's SQLi Attack](https://owasp.org/www-community/attacks/SQL_Injection)
+- [2] [OWASP's SQLI Prevention](https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html)
