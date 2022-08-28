@@ -1,22 +1,17 @@
-# Bounty Report Template - appName
-### Scope
-- White-listed vulnerabilities, targets..
-### Identified Domain(s)
-- https://example.com
-    - https://example.com/profile
-### App Functionality
-- Interesting features -> Flow, APIs..           
+# Report Title - identify (asset/vuln. type/impact)
 
+### <u>[Hacker101's Writing a Good Report](https://www.hacker101.com/resources/articles/writing_a_report_and_cvss)</u>
+
+### Issue Summary
+- An overview of the vulnerability.
 
 # **Impact**
-
-### Issue Description
-- A generic overview of the issue.
 
 ### Affected URL/Area
 - The affected urls or area of the application where the issue exists.
 
 ### Risk Rating
+- [CWE List v4.8](https://cwe.mitre.org/data/index.html)
 - [CVSS v3.1 Calculator](https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator)
 
 ### Impact
